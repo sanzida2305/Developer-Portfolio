@@ -11,12 +11,13 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 8%;
 }
-.div1{
+.div-msg{
     width:90%;
-    padding-left: 3%;
+    padding-left: 8%;
 }
-.div2 img{
+.div-image img{
     width: 80%;
 }
 .link-button{
@@ -31,4 +32,14 @@ section{
 .background{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.div-image img{
+    width: 80%;
+    padding-left: 55px;
+}
+
+.background2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
